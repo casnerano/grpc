@@ -8,7 +8,7 @@ Package `pkg/interceptor/validator` provides gRPC interceptors for validating pr
 - Support for nested fields with full paths
 - Returns a gRPC error with the `InvalidArgument` code, containing details in the `errdetails.BadRequest_FieldViolation` format.
 
-### Example
+#### Example
 
 **Proto message**
 ```protobuf
